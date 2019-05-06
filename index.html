@@ -2,10 +2,30 @@
 <html lang="en">
     <head>
         <title>My Weather Application</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
         <link rel="stylesheet" href="styling.css" />
     </head>
 
     <body>
-        
+        <div class="container">
+            <div id="weatherApp">
+                <div id="searchBarDiv">
+                    <div id="searchBar">
+                        <input type="text" class="col-sm-8" id="inputCity" placeholder="Enter the name of city" />
+                        <button type="button" class="col-sm-4 btn" id="searchCityBtn"><i class="fa fa-search fa-2x" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+                <div id="searchResultsDiv">
+                    
+                </div>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     </body>
 </html>
