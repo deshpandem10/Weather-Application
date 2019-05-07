@@ -74,3 +74,22 @@
 ::placeholder {
     color: rgb(221, 219, 219);
 }
+
+.temperature { 
+    border-right: 1px solid #888888;
+    height: 200px; 
+    margin-top: 125px;
+}
+
+.humidity {
+    height: 200px;
+    margin-top: 125px;
+}
+
+.box {
+    border: 1px solid #888888;
+    height: 200px;
+    width: 175px;
+    margin-left: 40px;
+    background-color: #fff;
+}
