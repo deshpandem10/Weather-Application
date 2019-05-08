@@ -60,10 +60,9 @@
     width: 60px;
     height: 50px;
     margin-top: 3px;
-    border: 1px solid #d8d1d1;
+    border: none;
     background-color: white;
     transition: all 0.5s ease 0s;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
 
 #searchCityBtn:hover {
@@ -88,8 +87,12 @@
 
 .box {
     border: 1px solid #888888;
-    height: 200px;
+    height: 100px;
     width: 175px;
     margin-left: 40px;
     background-color: #fff;
+    border-radius: 20px;
 }
+
+#tempDiv { margin-bottom: 10px; }
+#humidityDiv { margin-bottom: 10px; }
