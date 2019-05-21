@@ -94,5 +94,10 @@
     border-radius: 20px;
 }
 
-#tempDiv { margin-bottom: 10px; }
+#tempDiv { 
+    margin-bottom: 10px; 
+    text-align: center;
+    font-size: 36px;
+    padding-top: 25px;
+}
 #humidityDiv { margin-bottom: 10px; }
