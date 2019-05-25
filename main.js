@@ -2,7 +2,10 @@ $(function () {
 
     let searchButton = document.getElementById('searchCityBtn');
     let searchInput = document.getElementById('inputCity');
-    let temperature = document.getElementById("tempDiv");
+    let temperature = document.getElementById("tempDisplay");
+    let humidity = document.getElementById('humidityDisplay');
+    let pressure = document.getElementById('pressureDisplay');
+    let wind = document.getElementById('windDisplay');
 
     const key = "adcbaf2ac33077b45b05846355cc474f";
 
@@ -30,6 +33,9 @@ $(function () {
     function urlResponse(response) {
         let jsonObject = JSON.parse(response);
         temperature.innerHTML = parseInt(jsonObject.main.temp - 273) + " C";
+        humidity.innerHTML = parseFloat(jsonObject.main.humidity);
+        pressure.innerHTML = parseFloat(jsonObject.main.pressure);
+        wind.innerHTML = parseFloat(jsonObject.wind.speed);
     }
 
     function httpRequestAsync(url, callback){

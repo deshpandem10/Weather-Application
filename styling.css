@@ -94,10 +94,16 @@
     border-radius: 20px;
 }
 
-#tempDiv { 
+#tempDisplay, #humidityDisplay, #pressureDisplay, #windDisplay { 
     margin-bottom: 10px; 
     text-align: center;
     font-size: 36px;
-    padding-top: 25px;
+    border-top: 1px solid #b3ad04;
+} 
+
+#humidityDiv, #tempDiv { margin-bottom: 10px; }
+
+p {
+    margin-left: 45px;
+    font-family: cursive;
 }
-#humidityDiv { margin-bottom: 10px; }
