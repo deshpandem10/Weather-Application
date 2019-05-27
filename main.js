@@ -36,6 +36,7 @@ $(function () {
         humidity.innerHTML = parseFloat(jsonObject.main.humidity);
         pressure.innerHTML = parseFloat(jsonObject.main.pressure);
         wind.innerHTML = parseFloat(jsonObject.wind.speed);
+        icon_holder.src = "http://openweathermap.org/img/w/" + jsonObject.weather[0].icon + ".png";
     }
 
     function httpRequestAsync(url, callback){

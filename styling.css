@@ -77,12 +77,12 @@
 .temperature { 
     border-right: 1px solid #888888;
     height: 200px; 
-    margin-top: 125px;
+    margin-top: 25px;
 }
 
 .humidity {
     height: 200px;
-    margin-top: 125px;
+    margin-top: 25px;
 }
 
 .box {
@@ -108,3 +108,11 @@ p {
     margin-left: 45px;
     font-family: cursive;
 }
+
+.icon-display {
+    margin-left: 40%;
+    padding-top: 40px;
+}
+
+#icon_holder { height: 100px; }
+
